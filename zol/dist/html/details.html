@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>物品详情</title>
+		<link rel="stylesheet" href="../css/details.min.css" />
+		<script src = "../js/jquery-1.10.1.min.js"></script>
+		<script src = "../js/require.js" defer async="true" data-main = "../js/main.js"></script>
+		<script>
+			$(function(){
+//				var aLis = $("#listD").find("li");
+//				for(var i = 0; i < aLis.length; i++){
+//					aLis.eq(i).index = i;
+//					aLis.eq(i).mousedown(function(){
+//						alert(this.index)
+//					})
+//				}
+				
+				$(".showLiD").mouseover(function(ev){
+					var e = ev || window.event
+					$(".showLiD").mousemove(function(ev){
+						var e = ev || window.event
+						var offsetX = e.clientX - $(".showLiD").offset().left;
+						var offsetY = e.clientY - $(".showLiD").offset().top;
+						$(".showLiD2").css("display","block");
+						$(".showLiD2 img").css({
+							left:-offsetX * 2,
+							top:-offsetY * 2
+						})
+						if(offsetX >= 200){
+							$(".showLiD2 img").css("left", -400)
+						}
+						if(offsetY >= 200){
+							$(".showLiD2 img").css("top", -400)
+						}
+						$(".showLiD").mouseout(function(){
+							$(".showLiD2").css("display","none");
+						})
+					})
+				})
+				
+				$("#joinD").mousedown(function(){
+					alert("已成功加入购物车")
+				})
+			
+			})
+		</script>
+	</head>
+	<body>
+		<div class="mainD">
+			<div class="mainLeftD">
+				<div class="album">
+					<ul class="show">
+						<li class="showLiD">
+							<img src="../listImg/ChMkJ1pujAeICL2oAAF-MPCxQGgAAkcugOuWVYAAX5I586.jpg">
+						</li>
+						<li class="showLiD2">
+							<img src="../listImg/ChMkJ1pujAeICL2oAAF-MPCxQGgAAkcugOuWVYAAX5I586.jpg">
+						</li>
+					</ul>
+						<!--<li class="showLiD">
+							<img src="../listImg/ChMkJ1nphA2IWU-7AAD-BLQXayoAAhabQCAdv4AAP4c256.jpg"/>
+						</li>
+						<li class="showLiD">
+							<img src="../listImg/ChMkJlrBndqIQfftAAILKzK4IUkAAnQggJWvxIAAgtD172.jpg"/>
+						</li>
+						<li class="showLiD">
+							<img src="../listImg/ChMkJlqmNYWIE6gcAAGbBtiab2QAAmAlQDjSQUAAZse799.jpg"/>
+						</li>
+					</ul>-->
+					<ul class="listD" id = "listD">
+						<li class="listLiD">
+							<img src="../listImg/ChMkJ1pujAeICL2oAAF-MPCxQGgAAkcugOuWVYAAX5I586.jpg">
+						</li>
+						<li class="listLiD">
+							<img src="../listImg/ChMkJ1nphA2IWU-7AAD-BLQXayoAAhabQCAdv4AAP4c256.jpg"/>
+						</li>
+						<li class="listLiD">
+							<img src="../listImg/ChMkJlrBndqIQfftAAILKzK4IUkAAnQggJWvxIAAgtD172.jpg"/>
+						</li>
+						<li class="listLiD">
+							<img src="../listImg/ChMkJlqmNYWIE6gcAAGbBtiab2QAAmAlQDjSQUAAZse799.jpg"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mainRightD">
+				<h5>美图M8 64GB 自拍美颜 全网通 移动联通电信4G【顺丰包邮 当天发】 </h5>
+				<p class="rightPD">开启人工智能自拍时代。限购一台，黄牛单概不发货！</p>	
+				<div class="rightBox">
+					<div class="boxGroup">
+						<a href='../index.html'><img src="../images/mall.png"</a>
+						<a href="list.html"><img src="../images/group.png"></a>
+					</div>
+					<div>
+						<p style="float: left;color:#999;padding-top:13px;">团    购    价</p>
+						<h3 style="color:#CC0000;font-size:30px;padding-left:5px;float:left">￥3729.00</h3>
+						<span style="float:left;color:#999;padding-top:13px;text-decoration: line-through;margin-left: 12px;">￥4099.00</span>
+						<p class="save-icon">立即省370元</p>
+					</div>
+					
+				</div>
+				<div style="margin-top:100px">
+					<a href="#" id="promptly">立即购买</a>
+					<a href="#" id="joinD">加入购物车</a>
+				</div>
+				<a id = "goIndex" href="../index.html">点此返回主页</a>
+			</div>
+		</div>
+	</body>
+</html>

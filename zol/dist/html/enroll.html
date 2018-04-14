@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ZOL注册</title>
+		<link rel="stylesheet" href="../css/enroll.min.css" />
+		<script src = "../js/jquery-1.10.1.min.js"></script>
+		<script src = "../js/require.js" defer async="true" data-main = "../js/main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--头部开始-->
+			<div class="warpperHeader">
+				<div class="register-bar">
+					<a href="login.html">立即登录</a>已经有Z商城账号？
+				</div>
+				<div class="logo2">
+				</div>
+			</div>
+			<!--头部结束-->
+			<!--主体开始-->
+			<div class="registerE">
+				<div class="titleE">30秒注册,加入Z商城</div>
+				<form method = "POST" action="../php/enroll.php">
+					<div class="inputBox">
+						<ul class="screen">
+							<li><span>用手机号注册<span></li>
+						</ul>
+						<div class="register-phone-number" style="display:block;" id="J_register_phone">
+							<div class="register-form">
+								<div class="label">
+									<em class="xh">*</em>手机号：
+								</div>
+								<input id="J_register_phone_number" name = "phonenum" class="text" maxlength="11" type="text">
+								<i class="right-tips" style="display: none"></i>
+								<i class="wrong-tips" id="J_register_phone_tips"></i>
+								<div class="tips">请填写手机号码</div>
+							</div>
+
+							<div class="register-form">
+								<div class="label"><em class="xh">*</em>验证码：</div>
+								<div class="email-captcha clearfix">
+									<input  id="J_register_checkcode_phone" class="text" type="text">
+									<input id="J_register_checkcode_token_phone" value="1523326392432" type="hidden">
+									<span class="captcha-img"><img src="https://service.zol.com.cn/captcha.php?token=1523326392432&amp;numCnt=5&amp;width=98&amp;height=38" alt="" id="J_Captcha-Img_phone" width="98" height="38"></span>
+									<a href="javascript:void(0)" class="captcha-change" id="J_Captcha-Img_Change_phone">换一张</a>
+								</div>
+								<i class="wrong-tips" style="display:none;margin-left:38px;" id="J_register_checkcode_tips_phone"></i>
+								<div class="tips">请填写图片验证码</div>
+							</div>
+
+							<div class="register-form">
+
+							</div>
+
+							<div class="register-form">
+								<div class="label"><em class="xh">*</em>密码：</div>
+								<input name="password" id="J_register_pasword_phone" class="text" type="password">
+								<i class="wrong-tips"  id="J_register_pasword_phone_tips"></i>
+								<div class="tips">6-16位字母和数字的组合，不可用特殊字符</div>
+							</div>
+
+							<div class="register-form">
+								<div class="label"><em class="xh">*</em>密码：</div>
+								<input name="J_register_reg_pasword_phone" id="J_register_regPasword_phone" class="text" type="password">
+								<i class="wrong-tips"  id="J_register_regPasword_phone_tips"></i>
+								<div class="tips">再次输入密码</div>
+							</div>
+							<label class="agreement">
+						                                            <input value="1" name="J_regRead_phone" id="J_regRead_phone" checked="" type="checkbox">同意<a href="http://help.zol.com/index.php?c=Detail&amp;id=1019" target="_blank">《商城用户协议》</a><a href="http://help.zol.com/index.php?c=Detail&amp;id=1022" target="_blank" class="xy_a">《隐私权说明》</a>
+						                                        </label>
+							<input name="J_register_phone_submit" value="注册" class="register-btn" id="J_register_phone_submit" type="submit">
+
+						</div>
+					</div>
+					<div class="fast-login">
+						<p>如果您已经注册，请
+							<a href="https://login.zol.com/">
+								直接登录
+							</a>或者用以下方式登录：
+						</p>
+						<div class="fast-login-list">
+                            <a target="_blank" href="http://service.zol.com.cn/user/api/weixin/jump.php?backurl=http%3A%2F%2Fwww.zol.com%2F" class="weixin">微信登录</a>
+							<a target="_blank" href="http://service.zol.com.cn/user/api/sina/jump.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F" class="sina">新浪微博登录</a>
+							<a target="_blank" href="http://service.zol.com.cn/user/api/qq/libs/oauth/redirect_to_login.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F" class="qq">腾讯QQ登录</a>
+							<a target="_blank" href="http://tuan.zol.com/userBinding/alipay/alipay.auth.authorize_php_gb/alipay_auth_authorize.php?fromUrl=http%3A%2F%2Fwww.zol.com%2F" class="alipay">支付宝账号登录</a>
+							<a target="_blank" href="http://service.zol.com.cn/user/api/baidu/jump.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F" class="baidu">百度账号登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!--主题结束-->
+		</div>
+	</body>
+</html>

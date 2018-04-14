@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录-Z商城</title>
+		<link rel="stylesheet" href="../css/enroll.min.css" />
+		<script src = "../js/jquery-1.10.1.min.js"></script>
+		<script src = "../js/require.js" defer async="true" data-main = "../js/main.js"></script>
+        <script src = "../js/jquery.cookie.js"></script>
+		<style>
+			body{background:#fafafa}
+			.loginWrapL{
+				margin-top:50px;
+				overflow: hidden;
+				background: #fff;
+			}
+			.ad-div{float: left;}
+			.loginL{float: right;width: 400px;}
+			.loginLTitle{overflow: hidden;margin-top:20px;}
+			.loginLTitle h3{color:#CC0000;font-weight: normal;font-size: 20px;line-height: 38px;height: 38px;border-bottom:3px solid #CC0000}
+			.loginI{overflow: hidden;margin-top:35px;}
+			.loginInput{
+				border:1px solid #EC3639;
+				padding:0 10px;
+				width: 290px;
+				height: 39px;
+			}
+			.loginButton{
+				width: 311px;
+				height: 40px;
+				background:#CC0000;
+				border:none;
+				color:#fff;
+				font: bold 14px/40px "Arial";
+			}
+
+		</style>
+		<script>
+			$(function(){
+				 $("#loginButton").mousedown(function(){
+				 	var div1 = $("#loginName");
+				 	var div2 = $("#loginPass");
+				 	$.ajax({
+				 		type:"post",
+				 		url:"../php/login.php",
+				 		data: `name=${div1.val()}&password=${div2.val()}`,
+				 		success:function(data){
+							document.write(data);
+                            if(data != "用户名密码错误"){
+                                $.cookie("username", `${div1.val()}`,{path:"/"});
+                                location.reload();
+                            }else{
+                                alert(res);
+                            }
+
+						},
+						error:function(){
+							alert("访问失败");
+						}
+				 	});
+				 })
+			})
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+            <div class="header clearfix">
+	            <div class="register-bar">
+	            	<a href="enroll.html">
+	            		立即注册
+	            	</a>还没有Z商城账号？
+	            </div>
+	            <div class="logo">
+	                <a title="Z商城" href="../index.html">
+	                	<img title="Z商城" alt="Z商城" src="http://icon.zol-img.com.cn/newshop/shop/index/logo_130x60.png" width="130" height="60">
+	                	<span style="font-size:14px;margin-left:5px">中关村在线旗下网上商城</span>
+	                </a>
+	            </div>
+            </div>
+
+            <form id="J_loginForm" action="../php/login.php">
+            	<div class="loginWrapL">
+                	<div class="ad-div">
+                    	<a href="http://www.zol.com/" target="_blank">
+                    		<img src="https://login.zol.com/image/ad2_1.jpg" alt="" width="520" height="350">
+                    	</a>
+                	</div>
+                	<div class="loginL">
+                		<div class="loginLTitle">
+                			<h3>登录Z商城</h3>
+                		</div>
+                		<div class="loginI">
+                			<input name="name" id = "loginName" class="loginInput" type="text" placeholder="手机号/邮箱/用户名"/>
+                		</div>
+	                	<div class="loginI">
+	                		<input name="password" id = "loginPass" class="loginInput" type="password" placeholder="密码"/>
+	                	</div>
+	                	<div class="loginI">
+	                		<input id = "loginButton" class="loginButton" type="button" value="登录"/>
+	                	</div>
+                	</div>
+            	</div>
+            </form>
+    </div>
+	</body>
+</html>
