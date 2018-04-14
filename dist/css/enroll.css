@@ -1,0 +1,279 @@
+img {
+  border: 0;
+  vertical-align: middle; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+input:focus, textarea:focus, button:focus {
+  outline: none; }
+
+input[type="button"], input[type="submit"], input[type="file"], input[type="reset"], button {
+  cursor: pointer; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+body {
+  color: #333;
+  font: 12px/1.5 Arial; }
+
+.price {
+  float: left;
+  line-height: 32px;
+  font-size: 18px;
+  color: #f33; }
+
+h3 {
+  float: left;
+  margin: 0 10px 0 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400; }
+
+.wrapper {
+  width: 990px;
+  margin: 0 auto; }
+  .wrapper .warpperHeader {
+    overflow: hidden;
+    padding: 20px 0; }
+  .wrapper .register-bar {
+    float: right;
+    padding: 21px 0 0;
+    font-size: 14px;
+    line-height: 22px; }
+    .wrapper .register-bar a {
+      float: right;
+      height: 16px;
+      padding: 3px 10px;
+      color: #c00;
+      font: normal 14px/14px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1"; }
+      .wrapper .register-bar a:hover {
+        color: #fff;
+        background-color: #cd1f1f;
+        text-decoration: none; }
+  .wrapper .logo2 a img {
+    float: left; }
+  .wrapper .logo2 a p {
+    float: left;
+    margin: 8px 0 0 8px;
+    padding-left: 10px;
+    font: 14px/44px simsun;
+    color: #666;
+    border-left: 1px solid #e6e6e6;
+    cursor: pointer; }
+
+.registerE {
+  overflow: hidden;
+  padding: 0 0 100px;
+  border: 1px solid #e6e6e6;
+  width: 980px;
+  margin: auto; }
+  .registerE .titleE {
+    padding: 16px 0 16px 90px;
+    background: #fafafa;
+    font: 18px/28px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    color: #999; }
+  .registerE .inputBox {
+    float: left;
+    padding: 30px 0 0 89px;
+    width: 500px; }
+    .registerE .inputBox .screen {
+      height: 39px;
+      border-bottom: 1px solid #e6e6e6; }
+      .registerE .inputBox .screen li {
+        height: 37px;
+        padding: 0 0 2px;
+        border-top: 2px solid #e02d2d;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        background: #fff;
+        cursor: default;
+        width: 250px;
+        text-align: center; }
+        .registerE .inputBox .screen li span {
+          color: #c00;
+          line-height: 36px;
+          padding: 0 0 0 20px;
+          display: inline-block;
+          font: 18px/38px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+          background: url(https://login.zol.com/image/login-bg.png) -158px -235px no-repeat; }
+
+.register-phone-number, .register-email {
+  padding: 30px 0 0; }
+
+.register-form {
+  position: relative;
+  margin: 0 0 42px;
+  padding: 0 0 0 83px;
+  zoom: 1; }
+
+.register-form .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83px;
+  font: 14px/40px "Arial";
+  text-align: right;
+  color: #666; }
+
+.register-form .label .xh {
+  padding: 0 7px 0 0;
+  font-size: 12px;
+  font-family: "Simsun";
+  color: #f30; }
+
+em {
+  font-style: normal; }
+
+.register-form .text {
+  display: block;
+  margin: 0 10px 0 0;
+  padding: 8px 5px;
+  width: 278px;
+  height: 22px;
+  border: 1px solid #ccc; }
+
+.agreement {
+  display: block;
+  padding: 0 0 0 83px;
+  height: 32px;
+  font: 12px/32px "Arial";
+  color: #999; }
+
+.agreement input {
+  margin: 0 8px 0 0; }
+
+.agreement input {
+  margin: 0 8px 0 0; }
+
+select, input, button {
+  vertical-align: middle;
+  font-size: 100%; }
+
+.register-btn:hover {
+  background-position: 0 -41px; }
+
+.email-captcha .text {
+  float: left;
+  width: 158px; }
+
+.register-btn {
+  display: block;
+  margin: 20px 0 0 83px;
+  width: 290px;
+  height: 40px;
+  font: bold 14px/40px "Arial";
+  color: #fff;
+  text-align: center;
+  border: 0 none;
+  background: url(https://login.zol.com/image/bg.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer; }
+
+a {
+  color: #134ba0;
+  text-decoration: none; }
+
+a:hover {
+  color: #c00;
+  text-decoration: underline; }
+
+.fast-login {
+  float: right;
+  margin: 30px 0 0;
+  padding: 0 80px 0 25px;
+  width: 170px;
+  border-left: 1px solid #f5f5f5; }
+
+.fast-login p {
+  margin: -6px 0 0;
+  font: 12px/24px "Arial";
+  color: #666; }
+
+.fast-login-list .weixin {
+  background: url(http://icon.zol-img.com.cn/newshop/login/weixin.png) 0 0 no-repeat;
+  background-size: auto auto;
+  background-size: 100%; }
+
+.fast-login-list a {
+  display: block;
+  margin: 15px 0 0;
+  width: 170px;
+  height: 36px;
+  text-indent: -9999em;
+  overflow: hidden;
+  zoom: 1; }
+
+.fast-login-list .sina {
+  background-position: 0 0; }
+
+.fast-login-list a {
+  display: block;
+  margin: 15px 0 0;
+  width: 170px;
+  height: 36px;
+  text-indent: -9999em;
+  overflow: hidden;
+  zoom: 1; }
+
+.download-list a, .fast-login-list a, .register-tab span, .get-captcha, .register-form .right-tips, .register-form .wrong-tips {
+  background: url(https://login.zol.com/image/login-bg.png) no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%; }
+
+.fast-login-list a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.fast-login-list .qq {
+  background-position: 0 -37px; }
+
+.fast-login-list a {
+  display: block;
+  margin: 15px 0 0;
+  width: 170px;
+  height: 36px;
+  text-indent: -9999em;
+  overflow: hidden;
+  zoom: 1; }
+
+.fast-login-list a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.fast-login-list .alipay {
+  background-position: 0 -74px; }
+
+.fast-login-list a {
+  display: block;
+  margin: 15px 0 0;
+  width: 170px;
+  height: 36px;
+  text-indent: -9999em;
+  overflow: hidden;
+  zoom: 1; }
+
+.fast-login-list a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.fast-login-list .baidu {
+  background-position: 0 -111px; }
+
+.fast-login-list a {
+  display: block;
+  margin: 15px 0 0;
+  width: 170px;
+  height: 36px;
+  text-indent: -9999em;
+  overflow: hidden;
+  zoom: 1; }

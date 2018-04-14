@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ZOL商城</title>
+		<link rel="stylesheet" href="css/index.min.css" />
+		<script src = "js/jquery-1.10.1.min.js"></script>
+		<script src = "js/require.js" defer async="true" data-main = "js/main"></script>
+		<script src = "js/jquery.cookie.js"></script>
+		<script>
+		window.onload = function(){
+			if($.cookie("username")){
+				$("#slogan").html(`欢迎你,${$.cookie("username")} <a href="" id="esc">退出</a>`);
+				$("#esc").click(function(){
+					$.cookie("username", null);
+				})
+			}else{
+			}
+
+			(function sc_car(){
+				if($.cookie("goods")){
+					var sc_arr = eval($.cookie("goods"));
+					var sc_num = 0;
+					for(var i in sc_arr){
+						sc_num = Number(sc_arr[i].num) + sc_num;
+					}
+					$("#sc_num").html("购物车数量" + sc_num + "件");
+				}
+			})();
+		}
+		</script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="headerDiv">
+				<ul class="hUl1">
+					<li><a href="#">商城首页</a></li>
+					<li id = "slogan">Hi~欢迎来到Z商城,请<a class="headerLog" href="html/login.html">登录</a></li>
+					<li><a class="headerLog" href="html/enroll.html">免费注册</a></li>
+				</ul>
+				<ul class="hUl2">
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">买家中心</a></li>
+					<li><a id = "sc_num" href="#"></a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">手机商城</a></li>
+					<li><a href="#">中关村在线</a></li>
+					<li><a href="#">联系客服</a></li>
+				</ul>
+			</div>
+		</header>
+		<!--logo栏开始-->
+		<div class="barLogo">
+			<h1 class="logo">
+				<a href="#">
+					<img src="../images/logo_130x60.png" alt="" />
+				</a>
+			</h1>
+			<div class="barLogoSel">
+				<span>青岛</span>
+			</div>
+			<div class="search">
+				<input class="searchInp1" type="text"  placeholder = "找找您想要的商品"/>
+				<input class="searchInp2" type="button" value="搜索"/>
+			</div>
+			<div class="barRight">
+				<a href="#"><i class="ico1"></i>我的订单</a>
+				<a href="#"><i class="ico2"></i>我的优惠券</a>
+				<a href="html/login.html"><i class="ico3"></i>购物车</a>
+			</div>
+		</div>
+		<!--logo栏结束-->
+		<!--banner开始-->
+		<ul class="slidshow">
+
+		</ul>
+		<!--banner结束-->
+		<!--导航栏开始-->
+		<div class="gps">
+			<dl class="gpsMatter">
+				<dt><i class="ico4"></i>全部分类</dt>
+				<dd><a href="#">首页</a></dd>
+				<dd><a href="#">团购</a></dd>
+				<dd><a href="#">点击竞技</a></dd>
+				<dd><a href="#">本地优选</a></dd>
+				<dd><a href="#">家电优选</a></dd>
+			</dl>
+		</div>
+		<!--导航栏结束-->
+		<!--侧边导航开始-->
+		<div class="sideBox">
+			<ul id = "sidebar">
+
+			</ul>
+		</div>
+		<!--侧边导航结束-->
+		<!--轮播图开始-->
+		<div class="slide">
+			<ul class="slideshow">
+
+			</ul>
+			<ul class="dot">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<!--轮播图结束-->
+		<!--团购开始-->
+		<div class="group">
+			<div class="groupLeft">
+
+			</div>
+			<ul class="groupMiddle">
+
+			</ul>
+			<div class="groupRight">
+
+			</div>
+		</div>
+		<!--团购结束-->
+		<!--ZOL体验店开始-->
+		<dl class="exper">
+			<dt class="coupon">
+				<h3>领券中心</h3>
+				<p>COUPON</p>
+				<p><a href="#">去看看<span>>></span></a></p>
+			</dt>
+
+		</dl>
+		<!--ZOL体验店结束-->
+		<!--痛成狗开始-->
+		<dl class="city">
+			<dt>
+				<h3 class="cityH3"></h3>
+				<span class="citySpan"></span>
+				<a href="http://www.zol.com/shop_194784" target="_blank" class="more-link">更多</a>
+			</dt>
+		</dl>
+		<ul class="cityList">
+
+		</ul>
+		<!--痛成狗结束-->
+		<!--品牌精选开始-->
+		<dl class="sutra">
+			<dt class="sutraDt">
+
+			</dt>
+		</dl>
+		<!--品牌精选结束-->
+		<!--结尾开始-->
+		<div class="footer-nav-bar">
+			<div class="wrapper">
+				<div class="footer-nav">
+					<a href="http://www.zol.com.cn/" target="_blank">中关村在线</a> |
+					<a href="http://www.zol.com/" target="_blank">Z商城</a> |
+					<a href="http://tuan.zol.com/" target="_blank">团购</a> |
+					<a href="http://detail.zol.com.cn/" target="_blank">产品报价</a> |
+					<a href="http://bbs.zol.com.cn/" target="_blank">论坛</a> |
+					<a href="http://ask.zol.com.cn/" target="_blank">问答</a>
+				</div>
+				<div class="copyright">
+					<a href="http://help.zol.com/index.php?c=Detail&amp;id=1254" target="_blank">关于Z商城</a> |
+					<a href="http://help.zol.com/index.php?c=Default" target="_blank">帮助中心</a> |
+					<a href="http://help.zol.com/index.php?c=Detail&amp;id=1256" target="_blank">联系我们</a>
+				</div>
+				<div class="copyright">
+					<span style="margin-left:-5px;">
+		                            ©2018 中关村在线 版权所有. <a href="http://icon.zol.com.cn/icp.jpg" target="_blank">京ICP证150096号</a>京ICP备14061128号<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020026" target="_blank">京公网安备11010802020026号</a><a href="http://icon.zol.com.cn/wangwen.jpg" target="_blank">网络文化经营许可证京网文[2016]1631-199</a>                                </span>
+				</div>
+				<div class="focus-area clearfix">
+					<div class="wechat"><img src="http://icon.zol-img.com.cn/newshop/shop/index/qr.png" alt="" width="100" height="100"></div>
+					<a target="_blank" class="weibo" href="http://weibo.com/zolcom">关注新浪微博</a>
+				</div>
+			</div>
+			<a style="color:#fff;background:#666;border-radius:3px;-webkit-border-radius:3px;float:right;margin-right:50px;padding:0 8px;">广告</a>
+		</div>
+		<!--结尾结束-->
+	</body>
+</html>
