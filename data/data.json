@@ -1,0 +1,54 @@
+[{"title":"侧导航","sideBox":[
+{"title":"手机","child":[{"title":"手机"},{"title":"移动电源"},{"title":"蓝也耳机"},	{"title":"手机贴膜"},{"title":"保护套"},{"title":"数据线"},{"title":"充电器"},{"title":"手机维修"}]},
+{"title":"电脑","child":[{"title":"笔记本电脑"},{"title":"游戏本"},{"title":"超极本"},{"title":"二合一平板电脑"},{"title":"平板电脑"},{"title":"品牌整机"},{"title":"一体机"},{"title":"笔记本配件"},{"title":"笔记本电池"},{"title":"笔记本包"}]},
+{"title":"DIY","child":[{"title":"DIY主机"},{"title":"团购钜惠"},{"title":"硬盘"},{"title":"电源"},{"title":"散热器"},{"title":"CPU"},{"title":"机箱"},{"title":"主板"},{"title":"内存"},{"title":"固态硬盘"},{"title":"显卡"}]},
+{"title":"数码","child":[{"title":"数码相机"},{"title":"摄像机"},{"title":"相机镜头"},{"title":"相机电池"},{"title":"闪光灯"},{"title":"滤镜"},{"title":"电子教育"},{"title":"拍立得"},{"title":"相机包"},{"title":"相机遥控器"},{"title":"闪存卡"}]},
+{"title":"外设","child":[{"title":"键盘"},{"title":"鼠标"},{"title":"键鼠套装"},{"title":"鼠标垫"},{"title":"耳机"},{"title":"音响"},{"title":"投影仪"},{"title":"录音笔"},{"title":"路由器"},{"title":"移动硬盘"},{"title":"U盘"},{"title":"摄像头"},{"title":"手柄"}]},
+{"title":"智能","child":[{"title":"智能手环"},{"title":"智能手表"},{"title":"VR眼睛"},{"title":"将康检测"},{"title":"智能机器人"},{"title":"智能电子秤"},{"title":"智能灯"},{"title":"智能投影"},{"title":"HTC VIVE"}]
+}]},
+
+
+{"title":"轮播图","slideshow":[{
+"img":"../images/ChMkJ1rC3WeIathlAAL2B9_OQCgAAnS2QN7iD4AAvYf219.jpg"
+},{
+"img":"../images/ChMkJlq0r3KIFXTjAALaxFhxBXYAAm9KgBvnesAAtrc184.jpg"
+},{
+"img":"../images/ChMkJlrB6hmIDBBUAAIYIEc5KkMAAnRJQHOBRIAAhg4610.jpg"
+}]},
+
+
+
+{"title":"团购","group":[{
+	"groupLeft":"../images/tuanBanner.png"
+},{
+	"groupMiddle":[{"img":"../images/ChMkJlrBxWWITPnqAABO0_e7ASQAAnQ0AJ8t5UAAE7r442.jpg","name":"棘齿之剑X30","price":"2300","time":"2018-4-16","eComm":"2400"},{"img":"../images/ChMkJ1qvIk6IG0Q-AAB7d0qNAMcAAm1ngDeszEAAHuP519.jpg","name":"诺莫瑞根MM5","price":"2300","time":"2018-4-16","eComm":"2400"},{"img":"../images/ChMkJ1qvIcWIfzSDAACT_SieV2kAAm1nQE4fD8AAJQV224.jpg","name":"安戈洛GX-3","price":"2300","time":"2018-4-16","eComm":"2400"},{"img":"../images/ChMkJlrBxcSITFptAABTg6mYJWUAAnQ0QERNDIAAFOb364.jpg","name":"奥格瑞玛Z6战神","price":"2300","time":"2018-4-16","eComm":"2400"},{"img":"../images/ChMkJ1qvIcWIfzSDAACT_SieV2kAAm1nQE4fD8AAJQV224.jpg","name":"地精科技-50","price":"2300","time":"2018-4-16","eComm":"2400"},{"img":"../images/ChMkJ1qvIk6IG0Q-AAB7d0qNAMcAAm1ngDeszEAAHuP519.jpg","name":"沃金之傲Z1","price":"2300","time":"2018-4-16","eComm":"2400"}]
+},{
+	"groupRight":[{"img":"../images/ChMkJ1nDlbKIORaLAADvR_DdMk0AAgrdgAdQzMAAO9f025.jpg","express":"[什么包邮]","describe":"5G抢先购","tiait":"四摄拍照更美，美一拍"},{"img":"../images/ChMkJ1nDlbKIORaLAADvR_DdMk0AAgrdgAdQzMAAO9f025.jpg","express":"[什么包邮]","describe":"5G抢先购","tiait":"5英寸大屏大字体"},{"img":"../images/ChMkJ1nDlbKIORaLAADvR_DdMk0AAgrdgAdQzMAAO9f025.jpg","express":"[什么包邮]","describe":"5G抢先购","tiait":"16G机身内存 智能亲情"}]
+}]},
+{"title":"zol体验店","stamp":[{
+		"coupon":"../images/coupon-all-bg.png"
+	},{
+		"ticket":[{
+			"price":"￥59","name":"正品数码特惠店","cond":"满7999可用"
+		},{
+			"price":"￥39","name":"正品数码特惠店","cond":"满5999可用"
+		},{
+			"price":"￥19","name":"正品数码特惠店","cond":"满3999可用"
+		},{
+			"price":"￥3","name":"肾彬通讯专营店","cond":"满999可用"
+		}]
+	}]
+},
+{"title":"痛成狗","tiait":"同城、身边、退换无忧","li":[{
+	"img":"../images/ChMkJlpldYaIYUgfAACbBg4By8QAAkRZQGLjEUAAJse105.png"
+},{"img":"../images/ChMkJlplde2If3-0AACh9PudtQ4AAkRZQLMUBkAAKIM239.png"},{
+	"img":"../images/ChMkJ1pldbCIMgtTAACOTYeyc7wAAkRZQJDU7EAAI5l290.png"
+}],"cityList":[{
+	"img":"../images/ChMkJ1la9COID7KAAACZiVDipPkAAeCtAGLF6QAAJmh190.jpg","name":"荣耀9 全网通 标配版 4GB 64GB  移动联通电信4G【顺丰包邮 送壳膜】","msg":"2000万变焦双摄，3D曲面极光玻璃，美得有声有色！支持花呗付款！","price":"¥1898.00","t1":"¥1899.00"
+},{"img":"../images/ChMkJ1la9COID7KAAACZiVDipPkAAeCtAGLF6QAAJmh190.jpg","name":"荣耀9 全网通 标配版 4GB 64GB  移动联通电信4G【顺丰包邮 送壳膜】","msg":"2000万变焦双摄，3D曲面极光玻璃，美得有声有色！支持花呗付款！","price":"¥2219.00","t1":"¥1899.00"},{"img":"../images/ChMkJ1la9KWIduDZAACU3o4L4SoAAeCuwNtWwgAAJT2590.jpg","name":"荣耀9 全网通 标配版 4GB 64GB  移动联通电信4G【顺丰包邮 送壳膜】","msg":"2000万变焦双摄，3D曲面极光玻璃，美得有声有色！支持花呗付款！","price":"¥2109.00","t1":"¥1899.00"},{"img":"../images/ChMkJ1la9MqIcaCWAACgSNKle-AAAeCvQDjyAgAAKBg873.jpg","name":"荣耀9 全网通 标配版 4GB 64GB  移动联通电信4G【顺丰包邮 送壳膜】","msg":"2000万变焦双摄，3D曲面极光玻璃，美得有声有色！支持花呗付款！","price":"¥5100.00","t1":"¥1899.00"},{"img":"../images/ChMkJ1la9PaIMmHWAABwRk8NygIAAeCvgLc_2oAAHBe930.jpg","name":"荣耀9 全网通 标配版 4GB 64GB  移动联通电信4G【顺丰包邮 送壳膜】","msg":"2000万变焦双摄，3D曲面极光玻璃，美得有声有色！支持花呗付款！","price":"¥5100.00","t1":"¥1899.00"}]},
+{"title":"品牌精选","tiait":"大牌、保障、服务赞 ","dt":"../images/ChMkJ1pgTG6IdLGqAAA3Dfo3PQsAAkLmQIhM5EAADcl284.jpg","dd":[{
+	"img":"../images/ChMkJ1pgTV2IIj8VAABmdFFOUzwAAkLmgEOQHwAAGaM670.jpg","name":"影驰GTX1050显卡","rmb":"899"
+},{"img":"../images/ChMkJ1pgTnuIbVHXAABZ5F7pT2IAAkLnAPPe38AAFn8673.jpg","name":"影驰GTX1070显卡","rmb":"4,899"},{"img":"../images/ChMkJlpgTt-IFVB7AABUQeWZbDcAAkLngAlbhUAAFRZ727.jpg","name":"影驰10系显卡","rmb":"429"
+},{"img":"../images/ChMkJllTWkGIXc3VAAEawBmnCnsAAdp2AGtFCIAARrY654.jpg","name":"影驰 120GB 固态硬盘","rmb":"399"
+}]}]
+
